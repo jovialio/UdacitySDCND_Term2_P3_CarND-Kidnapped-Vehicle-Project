@@ -96,7 +96,7 @@ int main() {
 			pf.init(gt[i].x + n_x, gt[i].y + n_y, gt[i].theta + n_theta, sigma_pos);
 		}
 		else {
-			// Predict the vehicle's next state (noiseless).
+			// Predict the vehicle's next state (noiseless) at delta_t given velocity and yawrate
 			pf.prediction(delta_t, sigma_pos, position_meas[i-1].velocity, position_meas[i-1].yawrate);
 		}
 		// simulate the addition of noise to noiseless observation data.
