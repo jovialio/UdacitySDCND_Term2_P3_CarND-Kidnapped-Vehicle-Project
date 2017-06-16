@@ -1,3 +1,8 @@
+# Model Accuracy
+
+Cumulative mean weighted error: x 0.107882 y 0.102555 yaw 0.00353495
+Runtime (sec): 9.55931
+
 # Overview
 This repository contains all the code needed to complete the final project for the Localization course in Udacity's Self-Driving Car Nanodegree.
 
